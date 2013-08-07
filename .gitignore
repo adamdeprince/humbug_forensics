@@ -1,0 +1,7 @@
+*~
+#*#
+build
+*egg-info
+*.wav
+*.mp3
+dist
