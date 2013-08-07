@@ -19,14 +19,14 @@ from setuptools import setup
 
 
 setup(
-    name='humbug_forensics',
+    name='humbug-forensics',
     version='0.0.0',
     author='Adam DePrince',
     author_email='deprince@googlealumni.com',
     description='Simple utility to fake "hum forensics"',
     long_description=__doc__,
     py_modules = [
-        "humbug_forensics",
+        "humbug-forensics",
         ],
     packages = [],
     zip_safe=True,

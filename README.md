@@ -22,7 +22,7 @@ Except its easy to doctor.  All you need to do is apply a narrow
 bandgap filter to remove the original hum and reinject new, fake, hum
 data into your audio signal.  In fact, its so easy that I've created a program that does it for you.
 
-   humbugger --bandgap=60 --start="2013/8/1 12:00" --intensity=100 confession.wav parallely_constructed_confession.wav
+`humbugger --bandgap=60 --start="2013/8/1 12:00" --intensity=100 confession.wav parallely_constructed_confession.wav`
 
 Applied above, humbugger will remove 60Hz hum data from confession.wav
 and reapply hum data record from the US East Coast power grid at noon
