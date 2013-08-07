@@ -13,14 +13,15 @@ electrical grid.
 
 In adversarial proceedings, like criminal cases, A/C hum is often used
 to establish the time a recording was made and whether the recording
-was edited.  The theory is if a recorder was stopped and restarte, the
+was edited.  The theory is if a recorder was stopped and restarted, the
 hum on each side of the discontinuity would match a different time of
-day and be detectable.  This is often used to "prove" that records of
+day.  This can be detected; its absense is used to "prove" that records of
 confessions were not doctored.  
 
 Except its easy to doctor.  All you need to do is apply a narrow
 bandgap filter to remove the original hum and reinject new, fake, hum
-data into your audio signal.  In fact, its so easy that I've created a program that does it for you.
+data into your audio signal.  In fact, its so easy that I've created a
+program that does it for you.
 
 `humbugger --bandgap=60 --start="2013/8/1 12:00" --intensity=100 confession.wav parallely_constructed_confession.wav`
 
