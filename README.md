@@ -51,7 +51,7 @@ Cavets
 ------
 
 
-humbugger uses data from dagrid.us - the hardware used to collect this
+humbugger uses data from http://dagrid.us - the hardware used to collect this
 data is downright sketchy and it doesn't have the best resolution or
 accuracy.  Its entirely possiable this data doesn't match the hum data
 held by police departments, so a third party ENF foresnics expert may
